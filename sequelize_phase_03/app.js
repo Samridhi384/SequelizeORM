@@ -3,6 +3,7 @@ const express = require("express");
 const productRoutes = require("./routers/product");
 const studentRoutes = require("./routers/students");
 const bodyParser = require("body-parser");
+require("dotenv").config();
 
 const app = express();
 const port = 8087;

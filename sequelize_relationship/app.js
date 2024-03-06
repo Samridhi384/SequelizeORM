@@ -6,6 +6,7 @@ const CommentModel = require("./models").Comment;
 const PersonModel = require("./models").People;
 const RoleModel = require("./models").Role;
 const PersonRoleModel = require("./models").PersonRoleModel;
+require("dotenv").config();
 
 const app = express();
 
