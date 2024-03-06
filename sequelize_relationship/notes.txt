@@ -1,0 +1,8 @@
+user hasOne phone
+phone belongsTo user (reverse case)
+
+posts hasMany comments
+comments belongsTo posts
+
+
+A user has many roles and A role has many users
